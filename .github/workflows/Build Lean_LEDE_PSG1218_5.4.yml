@@ -16,8 +16,6 @@ on:
   push:
     branches:
       - master
-    paths:
-      - 'PSG1218.config'
   schedule:
     - cron: 0 19 * * *
   watch:

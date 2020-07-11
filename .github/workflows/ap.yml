@@ -17,8 +17,6 @@ on:
   push:
     branches:
       - master
-    paths:
-      - 'PSG1218.config'
   schedule:
     - cron: 0 19 * * *
   watch:
@@ -29,8 +27,6 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: PSG1218.config
-  DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
